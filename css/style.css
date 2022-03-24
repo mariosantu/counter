@@ -8,3 +8,13 @@
 body {
     background-color: rgb(49, 49, 49);
 }
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    color: black;
+}
+
