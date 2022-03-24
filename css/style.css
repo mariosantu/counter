@@ -50,7 +50,7 @@ h1 {
 button {
     padding: 10px;
     color: white;
-    background-color: plum;
+    background: plum;
     border-radius: 20px;
     border-color: white;
 }
