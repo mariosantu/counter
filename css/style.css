@@ -1,16 +1,50 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     color: white;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
 }
 
 body {
-    background-color: rgb(49, 49, 49);
+    background: rgb(63,94,251);
+    background: linear-gradient(30deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+.wrapper {
+    position: relative;
+    height: 100vh;
 }
 
 .container {
+    padding: 20px;
     text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 5px;
+    box-shadow:
+    2px 2.4px 1.6px rgba(0, 0, 0, 0.056),
+    4.9px 5.8px 3.8px rgba(0, 0, 0, 0.081),
+    9.3px 10.9px 7.1px rgba(0, 0, 0, 0.1),
+    16.5px 19.4px 12.7px rgba(0, 0, 0, 0.119),
+    30.9px 36.3px 23.8px rgba(0, 0, 0, 0.144),
+    74px 87px 57px rgba(0, 0, 0, 0.2);
+
+    background: rgb(63,94,251);
+    background: linear-gradient(30deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+
+}
+
+h1 {
+    padding: 35px;
+    font-size: 42px;
+}
+
+#number {
+    padding: 35px;
+    font-size: 47px;
 }
 
 button {
