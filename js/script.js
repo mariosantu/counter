@@ -1,14 +1,36 @@
+//html counter
+//container
+const container = document.getElementById('container');
+
+//number
+let divNum = document.createElement('div');
+divNum.textContent = 0;
+divNum.id = 'number';
+container.appendChild(divNum);
+
+//button increment
+let buttonIncrement = document.createElement('button');
+buttonIncrement.textContent = '+';
+buttonIncrement.id = 'increment';
+container.appendChild(buttonIncrement);
+
+//button reset
+let buttonReset = document.createElement('button');
+buttonReset.textContent = 'reset';
+buttonReset.id = 'reset';
+container.appendChild(buttonReset);
+
+//button decrement
+let buttonDecrement = document.createElement('button');
+buttonDecrement.textContent = '-';
+buttonDecrement.id = 'decrement';
+container.appendChild(buttonDecrement);
+
 // Data
 let add = document.getElementById('increment');
 let decrement = document.getElementById('decrement');
 let reset = document.getElementById('reset');
 let num = document.getElementById('number');
-
-// Default settings
-num.innerHTML= 0;
-add.innerHTML = '+';
-decrement.innerHTML = '-';
-reset.innerHTML = 'reset';
 
 
 // Events
